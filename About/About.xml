@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+<name>Science Never Stops: Ambition of the Cosmic</name>
+<author>explodoboy</author>
+<packageId>explodoboy.SNSAmbitionCosmic</packageId>
+<url>public.FutureGadgetLab.net</url>
+<supportedVersions><li>1.1</li><li>1.2</li></supportedVersions>
+<modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+    <li>
+      <packageId>UnlimitedHugs.HugsLib</packageId>
+      <displayName>HugsLib</displayName>
+      <downloadUrl>https://github.com/UnlimitedHugs/RimworldHugsLib/releases/latest</downloadUrl>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/818773962</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>V1024.EBFramework</packageId>
+      <displayName>Elite Bionics Framework</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/1665403571</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadBefore>
+    <li>explodoboy.SNSAOTCreskin</li>
+    <li>explodoboy.SNSAmbitionCosmic.Gen4Addon</li>
+    <li>explodoboy.SNSAmbitionCosmic.CEPatch</li>
+  </loadBefore>
+  <loadAfter>
+    <li>V1024.EBFramework</li>
+	<li>CETeam.CombatExtended</li>
+	<li>vanillaexpanded.achievements</li>
+  </loadAfter>
+<description>	Mod Version: 2.6 "Trajectory Beyond Reality"
+Welcome, to SCIENCE NEVER STOPS: AMBITION OF THE COSMIC! This mod aims to take the original vision of the mod and push it even further, expanding the late game as much as logically possible while retaining enough balance to work nicely with 'normal' balance mods.
+
+This mod was originally made by Aion Algos (formerly known as Alestor) and I do not claim ownership of the original textures/vision of the mod.
+
+This mod is in active development, and I, the mod author, am trying to keep the mod decently balanced so please leave a comment on the Workshop page if you think something needs rebalancing.
+
+PLEASE NOTE: THIS MOD AND ITS ORIGINAL ARE MUTUALLY EXCLUSIVE: YOU MUST USE THIS MOD OR THE ORIGINAL AND ONLY THAT ONE UNLESS YOU WANT THINGS TO POSSIBLY GO VERY, VERY WRONG. COMBINING THE MODS WILL VOID ANY BUG REPORTS!
+
+With all that said, let's get into the meat of the mod.
+
+
+SNS: AotC features a collection of technologies, that get progressively more and more expensive until it reaches absolutely absurd levels. Technologies are bunched into 'Generations' which are basically just the massive leaps in-between techs. The tech tree is as follows:
+
+=== Generation 0 "Pushing The Limits" ===
+Pushing The Limits - The Gateway technology to SNS. It does *not* yet unlock anything on its own, but does provide a little exposition for the origin on Cosmic Matter (the replacement for Unobtainium in SNS:AOTC) in the research description.
+
+
+=== Generation 0.5 "The Beginning" ===
+Cosmic Aquisition - Unlocks the Cosmic Forge, which contains the bills for Cosmic Alloy and Cosmic Weave.
+* Cosmic Forge - A building that contains the bills for most Generation 1 items.
+* Cosmic Alloy - A building material much like Steel, but has a *very* high amount of health and other very high stats.
+* Cosmic Weave - A fabric that works both as a textile (like cloth) and a leather. Crafted by refining Cosmic Alloy.
+
+
+=== Generation 1 "Towards The Ceiling" ===
+Cosmic Weaponisation - Unlocks the Cosmic Pistol, Cosmic Rifle, Cosmic Sniper, Cosmic EMP Grenade, and the Cosmic Frag Grenade.
+* Cosmic Pistol - A gun that shoots high-damage rounds at a fast rate, with a relatively high accuracy and range for pistols.
+* Cosmic Rifle - A gun that shoots high-damage rounds at a rapid rate, with a high accuracy and range for assault rifles.
+* Cosmic Sniper - A gun that shoots very-high-damage rounds slowly, able to tear off limbs with a single shot. Has a very long range, even for sniper rifles.
+* Cosmic EMP Grenade - A powerful grenade that stuns Mechanoids very well. Has a *very* large explosion radius.
+* Cosmic Frag Grenade - A powerful grenade that deals a lot of damage. Has a large explosion radius.
+
+Cosmic Armors - Unlocks the Cosmic Alloy Helmet and Cosmic Alloy Plate Armor.
+* Cosmic Alloy Helmet - A helmet superior to that of Power Armor Helmets, except againt melee.
+* Cosmic Alloy Plate Armor - Armor superior to that of Power Armor in every way.
+
+Cosmic Energy - Unlocks the Cosmic Catalyst Cell, Cosmic Battery Generation 1, and the Cosmic Reactor Generation 1.
+* Cosmic Reactor Generation 1 - A reactor that generates 100K Watts (100,000 Wd). Runs for a whole year when fueled fully.
+* Cosmic Battery Generation 1 - A battery that stores 10K Watts (10000 Wd) without any efficiency loss.
+* Cosmic Catalyst Cell - An item that is used to fuel the Cosmic Reactor Generation 1. Costs Uranium and Cosmic Alloy to craft. Can be crafted at the Cosmic Forge.
+
+Cosmic Hydroponics - Unlocks the Cosmic Hydroponics Generation 1, a superior Hydroponics basin.
+* Cosmic Hydroponics Generation 1 - A Hydroponics Basin with 700% Fertility (The base game Hydroponics has 280% Fertility) at the cost of 700 Watts to run.
+
+Cosmic Flooring - Unlocks the Cosmic Alloy Tile, a pretty sterile tile.
+* Cosmic Alloy Tile - A tile that combines the features of a Sterile Tile and a Gold Tile, but better.
+
+
+=== Generation 1.5 "Cosmic Theory" ===
+Cosmic Theory - Unlocks the Cosmic Drawer and Cosmic Matter, and hails the beginning of the second generation of Cosmic technologies.
+* Cosmic Drawer - A building that consumes 100K (100,000) Watts to open the possibility to craft Cosmic Matter.
+* Cosmic Matter - A highly-valuable material that all Generation 2 buildings and items need to be made. It takes a lot of time to draw Cosmic Matter.
+
+
+=== Generation 2 "The Final Renaissance" ===
+Cosmic Superweapons - Unlocks the Cosmic Lance, a superweapon able to destroy almost everything. Even the toughest modded creatures aren't likely to survive this.
+* Cosmic Lance - A weapon made at the Machining Table. It has an extreme windup and winddown time, but deals 1000 damage per shot and is extremely accurate.
+
+Cosmic Power Armor - Unlocks the Cosmic Power Armor.
+* Cosmic Power Armor Helmet - A Power Armor Helmet made out of Cosmic Alloy, Cosmic Weave and Cosmic Matter at the Fabrication Bench. Very, very expensive to produce but very, very protective.
+* Cosmic Power Armor - Power Armor Helmet made out of Cosmic Alloy, Cosmic Weave and Cosmic Matter at the Fabrication Bench. Very, very expensive to produce but very, very protective.
+
+Cosmic Energy Generation II - Unlocks the Cosmic Reactor Generation 2 and the Cosmic Battery Generation 2.
+* Cosmic Reactor Gen 2 - A reactor that generates 150K Watts (150,000 Wd). Runs for three years when fueled fully. Fueled by Cosmic Matter.
+* Cosmic Battery Gen 2 - A battery that stores 100K Watts (100,000 Wd) at maximum efficiency.
+* Portable Cosmic Reactor Gen 1 - A portable version of the Generation 1 COsmic Reactor, superior in every way (lower cost, lower work to build, smaller space, same fuel, same burn)
+
+Cosmic Hydroponics Genertation II - Unlocks the Cosmic Hydroponics Generation II.
+* Cosmic Hydroponics Gen 2 - A Hydroponics Basin with 1500% Fertility at the cost of 1800 Watts to run.
+
+Arcane Flooring - Unlocks the Cosmic Tile.
+* Cosmic Tile - A tile that is better than the Cosmic Alloy Tile in beauty and cleanliness.
+
+
+=== Generation 2.5 "Reaching The Limits" ===
+Reaching The Limits - Unlocks the Atomic Fabricator, a building that converts Cosmic Matter into various goods and resources. Basically a free resource generator with extra steps.
+
+
+=== Generation 2.5.1 "Hitting A Roadblock" ===
+The Great Unknown - The Great Unknown is a research that has an absurd technology cost and will need a long time invested to research, but the reward is almost surely worth it in the form of the Call of the Cosmos--information below.
+* The Call of the Cosmos - An upgraded Atomic Fabricator that removes the need for Cosmic Matter to craft. Can also craft Cosmic Matter.
+
+
+=== Generation X "Shattering The Ceiling" ===
+Breaching The Limits - Once Beyond Our Understanding is researched, Generation Omega begins. BTL unlocks Eternium, which is drawn from the Call of the Cosmos.
+* Eternium - A material vastly superior to both Cosmic Alloy and Cosmic Weave combined. It functions as a building material, textile, leather, and stony material all at the same time. Must be drawn from the Call of the Cosmos.
+
+
+=== Generation Omega "The Final Era" ===
+Project EXARCH - Unlocks The EXARCH, a superweapon that is effectively a rapid-fire Cosmic Lance. Be very careful.
+* The EXARCH - A superweapon that deals 1000 damage per shot and fires at a rapid rate. Obscenely expensive.
+
+Project CHARON - Unlocks the CHARON Helmet and CHARON Armor, super power-armor that is very protective at all qualities.
+* CHARON Armor - An armor-and-helmet pair of Power Armor that is truly the ultimate armor. Looks absolutely badass.
+
+Cosmic Energy Generation Omega - Unlocks the Cosmic Reactor Generation Omega and the Cosmic Battery Generation Omega.
+* Cosmic Reactor Gen Omega - A super-reactor that generates 1.5M Watts (1,500,000 Wd) without needing any fuel at all.
+* Cosmic Battery Gen Omega - A super-battery that stores 1M Watts (1,000,000 Wd) at the maximum efficiency. Also near-indestructable.
+
+Project EDEN - Unlocks the Cosmic Hydroponics Generation Omega.
+* Cosmic Hydroponics Generation Omega - A Hydroponics Basin with 10000% Fertility.
+
+Divine Ground - 
+* Eternium Tile - The ultimate tile, 150 beauty and around double the cleanliness of Sterile Tiles.
+
+
+=== Generation Omega-Omega "Unto the Zenith" ===
+Unto The Zenith - A gateway technology to the final technology. Does nothing at the moment.
+
+=== The End of the Generation ===
+Pinnacle of Creation - The final research, the final goal. Unlocks a bill in the Cosmic Forge. Very, very expensive, very, very worth it.
+* ???????? ???? - Infinite Beauty. Infinite Power. Infinite Wonder.
+
+Beyond our Understanding - A research that can never be completed, even with an infinite number of TechProf Subpersona Cores, because Science Never Stops.
+* ??? - You're going too far. CEASE TO EXIST UNLESS WE NOT PERSIST.
+</description>
+</ModMetaData>

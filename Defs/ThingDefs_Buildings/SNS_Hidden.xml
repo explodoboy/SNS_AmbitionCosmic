@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>SNS_Hidden</defName>
+		<label>Eternity Cell</label>
+		<description>Beholden to all, the Eternity Cell. Its unblinking, undying gaze basks in the wonders of all Eternity, its inner workings an utter mystery to the universe outside. Energy flows from within, providing an endless source of power and will.\n\nThose who bask in the glory of its watchful eye are often taken by its unmoving stare. It's an untold beauty, something Beyond Our Understanding. One does not need the ability to see to behold the Eternity Cell.\n\nPerhaps we will never understand its secrets...but then again, did we ever let the ceiling stop us before?\n\nStats: You will never have to worry about Power ever again.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Joy/SNS/Hidden</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,5)</drawSize>
+		</graphicData>
+		<size>(4,5)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories><li>BuildingsPower</li></thingCategories>
+		<passability>PassThroughOnly</passability>
+		<pathCost>150</pathCost>
+		<blockWind>true</blockWind>
+		<fillPercent>1</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+		<statBases>
+			<MaxHitPoints>100000</MaxHitPoints>
+			<WorkToBuild>150000</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Mass>5.0</Mass>
+			<Beauty>1000</Beauty>
+            <JoyGainFactor>10</JoyGainFactor>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<canOverlapZones>false</canOverlapZones>
+        <building>
+            <joyKind>SNS_Hidden</joyKind>
+        </building>
+		<costList>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Art"><canBeEnjoyedAsArt>true</canBeEnjoyedAsArt></li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerPlant</compClass>
+				<basePowerConsumption>-Infinity</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>20</glowRadius>
+				<glowColor>(120,0,255,0)</glowColor>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites><li>SNS_Research_VII</li></researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>SNS_tooltip_disclaimer</defName>
+		<label>DISCLAIMER: You can't complete this technology. It'll reset itself.</label>
+		<description>This 'tooltip' is for those who use alternative tech tree mods that don't show tech descriptions. This tech can NEVER be completed. Even if you can somehow 'complete' it, it'll reset itself back to zero.\n\nThis won't give an obtainable item (or shouldn't) via non-cheating methods, and having it won't really do you anything.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Joy/SNS/Hidden_angry</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories><li>BuildingsPower</li></thingCategories>
+		<passability>PassThroughOnly</passability>
+		<pathCost>0</pathCost>
+		<blockWind>false</blockWind>
+		<castEdgeShadows>false</castEdgeShadows>
+		<statBases>
+			<MaxHitPoints>Infinity</MaxHitPoints>
+			<WorkToBuild>1</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Mass>0</Mass>
+			<Beauty>0</Beauty>
+			<JoyGainFactor>0</JoyGainFactor>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<canOverlapZones>false</canOverlapZones>
+		<!--building><joyKind>Gaming_Cerebral</joyKind></building-->
+		<costList>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerPlant</compClass>
+				<basePowerConsumption>0</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>20</glowRadius>
+				<glowColor>(255,0,0,0)</glowColor>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites><li>SNS_Research_infinite</li></researchPrerequisites>
+	</ThingDef>
+
+</Defs>
