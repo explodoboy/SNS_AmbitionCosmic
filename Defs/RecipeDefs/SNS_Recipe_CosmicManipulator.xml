@@ -68,7 +68,7 @@
 		<ingredients>
 			<li><filter><thingDefs><li>SNS_CosmicAlloyWeave</li></thingDefs></filter><count>50</count></li>
 		</ingredients>
-		<products><SNS_CosmicAlloyWeave>25</SNS_CosmicAlloyWeave></products>
+		<products><SNS_CosmicAlloy>25</SNS_CosmicAlloy></products>
 	</RecipeDef>
 	
 	<RecipeDef Abstract="True" Name="SNS_CosmicDrawer_ForgeCosmicWeave">
