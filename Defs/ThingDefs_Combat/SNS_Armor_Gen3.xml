@@ -91,9 +91,9 @@
 	  <DeteriorationRate>0.0</DeteriorationRate>
       <Mass>6</Mass>
       <Flammability>0.0</Flammability>
-      <ArmorRating_Sharp>7</ArmorRating_Sharp>
-      <ArmorRating_Blunt>7</ArmorRating_Blunt>
-      <ArmorRating_Heat>7</ArmorRating_Heat>
+      <ArmorRating_Sharp>25</ArmorRating_Sharp>
+      <ArmorRating_Blunt>25</ArmorRating_Blunt>
+      <ArmorRating_Heat>25</ArmorRating_Heat>
       <Insulation_Cold>500</Insulation_Cold>
       <Insulation_Heat>500</Insulation_Heat>
       <EquipDelay>24</EquipDelay>

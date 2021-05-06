@@ -12,6 +12,7 @@
 			<flyOverhead>false</flyOverhead>
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>26</damageAmountBase>
+            <armorPenetrationBase>24.5</armorPenetrationBase>
 			<speed>200</speed>
 		</projectile>
 	</ThingDef>
@@ -75,6 +76,7 @@
 		<projectile>
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>17</damageAmountBase>
+            <armorPenetrationBase>24</armorPenetrationBase>
 			<speed>140</speed>
 		</projectile>
 	</ThingDef>
@@ -139,6 +141,7 @@
 		<projectile>
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>200</damageAmountBase>
+            <armorPenetrationBase>50</armorPenetrationBase>
 			<speed>100</speed>
 		</projectile>
 	</ThingDef>
@@ -201,6 +204,7 @@
 		<projectile>
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>120</damageAmountBase>
+            <armorPenetrationBase>25</armorPenetrationBase>
 			<speed>250</speed>
 		</projectile>
 	</ThingDef>

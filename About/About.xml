@@ -26,7 +26,8 @@
     </li>
   </modDependencies>
   <loadBefore>
-    <li>explodoboy.SNSAOTCreskin</li>
+    <li>explodoboy.SNSAmbitionCosmic.YGTFReskin</li>
+    <li>explodoboy.SNSAmbitionCosmic.JokeReskin</li>
     <li>explodoboy.SNSAmbitionCosmic.Gen4Addon</li>
     <li>explodoboy.SNSAmbitionCosmic.CEPatch</li>
   </loadBefore>

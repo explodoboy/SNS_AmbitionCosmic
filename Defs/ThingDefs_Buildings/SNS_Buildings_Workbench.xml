@@ -45,11 +45,6 @@
 				<glowColor>(255,240,89,0)</glowColor>
 			</li>
 			<li Class="CompProperties_Flickable"/>
-			<li Class="CompProperties_AffectedByFacilities">
-				<linkableFacilities>
-					<li>ToolCabinet</li>
-				</linkableFacilities>
-			</li>
 			<li Class="CompProperties_Breakdownable"/>
             <li Class="CompProperties_AffectedByFacilities">
                 <linkableFacilities>
@@ -85,7 +80,6 @@
 		<surfaceType>Item</surfaceType>
 		<designationCategory>Production</designationCategory>
 		<altitudeLayer>Building</altitudeLayer>
-		<costStuffCount>75</costStuffCount>
 		<costList>
 			<SNS_CosmicAlloy>100</SNS_CosmicAlloy>
 			<SNS_CosmicMatter>200</SNS_CosmicMatter>
@@ -457,6 +451,64 @@
 		<building><spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity></building>
 		<recipes></recipes>
 		<researchPrerequisites><li>SNS_Research_VI_bionics</li></researchPrerequisites>
+		<placeWorkers><li>PlaceWorker_ShowFacilitiesConnections</li></placeWorkers>
+	</ThingDef>
+
+    <ThingDef ParentName="BenchBase">
+		<defName>Table_SNS_NutrientProcessor</defName>
+		<label>Nutrient Processor</label>
+		<description>The Nutrient Processor processes input nutrients to produce nutrient paste for further processing into shelf-stable nutrient bars. It also can infuse various materials into food to make higher-quality meals.\n\nStats: Consumes 1250 Watts.</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Production/SNS/NutrientProcessor/NutrientProcessor</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<size>(3,2)</size>
+		<blockWind>false</blockWind>
+		<rotatable>true</rotatable>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>40</pathCost>
+		<passability>PassThroughOnly</passability>
+		<surfaceType>Item</surfaceType>
+		<designationCategory>Production</designationCategory>
+		<altitudeLayer>Building</altitudeLayer>
+		<costList>
+			<Plasteel>35</Plasteel>
+			<SNS_Unobtainium>15</SNS_Unobtainium>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>7500</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>0.0</Flammability>
+			<Cleanliness>2</Cleanliness>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>1250</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(255,240,89,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+            <li Class="CompProperties_AffectedByFacilities">
+                <linkableFacilities>
+                    <li>SNS_Linkable_Unobtainer_I</li>
+                </linkableFacilities>
+            </li>
+		</comps>
+		<inspectorTabs><li>ITab_Bills</li></inspectorTabs>
+		<building><spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity></building>
+		<recipes></recipes>
+		<researchPrerequisites><li>SNS_Research_I</li></researchPrerequisites>
 		<placeWorkers><li>PlaceWorker_ShowFacilitiesConnections</li></placeWorkers>
 	</ThingDef>
 

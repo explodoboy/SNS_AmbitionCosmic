@@ -5,8 +5,8 @@
 		<defName>SNS_Production_CosmicCall_Base</defName>
 		<jobString>Atomically Fabricating</jobString>
 		<!--workSpeedStat>SmithingSpeed</workSpeedStat-->
-		<workSkill></workSkill>
 		<skillRequirements></skillRequirements>
+        <workSkill>Intellectual</workSkill>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<ingredients></ingredients>
 		<fixedIngredientFilter></fixedIngredientFilter>
@@ -36,14 +36,6 @@
 		<description>Pattern Lavish Meals from pure Cosmic Matter.</description>
 		<workAmount>3000</workAmount>
 		<products><MealLavish>10</MealLavish></products>
-	</RecipeDef>
-
-	<RecipeDef ParentName="SNS_CosmicCall_Item">
-		<defName>SNS_Production_CosmicCall_MealGenI</defName>
-		<label>Pattern Luxurious Meal</label>
-		<description>Pattern Luxurious Meals from pure Cosmic Matter.</description>
-		<workAmount>3000</workAmount>
-		<products><SNS_Meal_Normal_GenI>10</SNS_Meal_Normal_GenI></products>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SNS_CosmicCall_Item">

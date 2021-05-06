@@ -117,8 +117,8 @@
 				<li>SNS_Unobtainium_Fiber</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
-		<workSkill>Intellectual</workSkill>
+        <workSkill>Crafting</workSkill>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workAmount>3000</workAmount>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
@@ -148,8 +148,8 @@
 				<li>SNS_Unobtainium_Fiber</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
-		<workSkill>Intellectual</workSkill>
+        <workSkill>Crafting</workSkill>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workAmount>12750</workAmount> <!-- 85% the work, so 15% faster overall -->
 		<soundWorking>Recipe_Machining</soundWorking>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>

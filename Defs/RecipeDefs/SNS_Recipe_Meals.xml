@@ -1,227 +1,128 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<!-- Generation 1 -->
-<RecipeDef ParentName="CookMealBase">
-	<defName>SNS_Recipe_Meal_Normal_GenI</defName>
-	<label>cook luxurious meal</label>
-	<description>Cook a luxurious meal from one ingredient. Some ingredients are wasted, but not as many as Lavish meals typically waste.</description>
-	<jobString>Cooking luxurious meal.</jobString>
-	<workSpeedStat>CookSpeed</workSpeedStat>
-	<workAmount>900</workAmount>
-	<requiredGiverWorkType>Cooking</requiredGiverWorkType>
-	<effectWorking>Cook</effectWorking>
-	<soundWorking>Recipe_CookMeal</soundWorking>
-	<allowMixingIngredients>true</allowMixingIngredients>
-	<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
-	<ingredients>
-		<li><filter><categories><li>FoodRaw</li></categories></filter><count>0.75</count></li>
-	</ingredients>
-	<products>
-		<SNS_Meal_Normal_GenI>1</SNS_Meal_Normal_GenI>
-	</products>
-	<workSkill>Cooking</workSkill>
-    <skillRequirements>
-      <Cooking>9</Cooking>
-    </skillRequirements>
-    <researchPrerequisite>SNS_Research_II_food</researchPrerequisite>
-	<recipeUsers><li>ElectricStove</li></recipeUsers>
-</RecipeDef>
-
-<RecipeDef ParentName="CookMealBase">
-	<defName>SNS_Recipe_Bulk_Meal_Normal_GenI</defName>
-	<label>bulk cook luxurious meal (x4)</label>
-	<description>Cook four luxurious meals from one ingredient. Some ingredients are wasted, but not as many as Lavish meals typically waste.\n\nNote: Bulk cooking luxurious meals is 15% faster overall than cooking 4 luxurious meals individually, not counting time to collect and transport cooking materials.</description>
-	<jobString>Cooking luxurious meal.</jobString>
-	<workSpeedStat>CookSpeed</workSpeedStat>
-	<workAmount>3060</workAmount>
-	<requiredGiverWorkType>Cooking</requiredGiverWorkType>
-	<effectWorking>Cook</effectWorking>
-	<soundWorking>Recipe_CookMeal</soundWorking>
-	<allowMixingIngredients>true</allowMixingIngredients>
-	<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
-	<ingredients>
-		<li><filter><categories><li>FoodRaw</li></categories></filter><count>3.0</count></li>
-	</ingredients>
-	<products>
-		<SNS_Meal_Normal_GenI>5</SNS_Meal_Normal_GenI>
-	</products>
-	<workSkill>Cooking</workSkill>
-    <skillRequirements>
-      <Cooking>9</Cooking>
-    </skillRequirements>
-    <researchPrerequisite>SNS_Research_II_food</researchPrerequisite>
-	<recipeUsers><li>ElectricStove</li><li>FueledStove</li></recipeUsers>
-</RecipeDef>
+  <!-- Generation 1 -->
 
 <RecipeDef ParentName="CookMealBase">
 	<defName>SNS_Recipe_Meal_Nutrient_GenI</defName>
 	<label>make five nutrient bars</label>
-	<description>Make five nutrient bars from one ingredient. Nutrient bars take a while to prepare, but are more nutrient efficient than even Nutrient Paste.\n\nNote: You effectively get 5 times the food from the same nutrients that would be normally put into making meals.</description>
+	<description>Make five nutrient bars made through the further processing of nutrient paste.</description>
 	<jobString>Cooking nutrient bars.</jobString>
-	<workSpeedStat>CookSpeed</workSpeedStat>
-	<workAmount>1500</workAmount>
-	<requiredGiverWorkType>Cooking</requiredGiverWorkType>
-	<effectWorking>Cook</effectWorking>
+	<workAmount>300</workAmount>
 	<soundWorking>Recipe_CookMeal</soundWorking>
-	<allowMixingIngredients>true</allowMixingIngredients>
-	<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
 	<ingredients>
-		<li><filter><categories><li>FoodRaw</li></categories></filter><count>0.5</count></li>
+		<li><filter><thingDefs><li>MealNutrientPaste</li></thingDefs></filter><count>5</count></li>
 		<li><filter><thingDefs><li>SNS_Unobtainium</li></thingDefs></filter><count>1</count></li>
 	</ingredients>
 	<products>
 		<SNS_Meal_Nutrient_GenI>5</SNS_Meal_Nutrient_GenI>
 	</products>
-	<workSkill>Cooking</workSkill>
-    <skillRequirements>
-      <Cooking>11</Cooking>
-    </skillRequirements>
     <researchPrerequisite>SNS_Research_II_food</researchPrerequisite>
-	<recipeUsers><li>ElectricStove</li><li>FueledStove</li></recipeUsers>
+	<recipeUsers><li>Table_SNS_NutrientProcessor</li></recipeUsers>
 </RecipeDef>
 
 <RecipeDef ParentName="CookMealBase">
 	<defName>SNS_Recipe_Bulk_Meal_Nutrient_GenI</defName>
 	<label>bulk make 25 nutrient bars</label>
-	<description>Make twenty-five nutrient bars from one ingredient. Nutrient bars take a while to prepare, but are more nutrient efficient than even Nutrient Paste.\n\nNote: You effectively get 5 times the food from the same nutrients that would be normally put into making meals.\n\nNote: Bulk cooking nutrient bars is 15% faster overall than cooking nutrient bars five times individually, not counting time to collect and transport cooking materials.</description>
+	<description>Make twenty-five nutrient bars made through the further processing of nutrient paste.\n\nNote: Bulk making nutrient bars is 15% faster overall than cooking nutrient bars five times individually, not counting time to collect and transport cooking materials.</description>
 	<jobString>Cooking nutrient bars.</jobString>
-	<workAmount>6375</workAmount>
-	<workSpeedStat>CookSpeed</workSpeedStat>
-	<requiredGiverWorkType>Cooking</requiredGiverWorkType>
-	<effectWorking>Cook</effectWorking>
+	<workAmount>1275</workAmount>
 	<soundWorking>Recipe_CookMeal</soundWorking>
-	<allowMixingIngredients>true</allowMixingIngredients>
-	<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
 	<ingredients>
-		<li><filter><categories><li>FoodRaw</li></categories></filter><count>2.5</count></li>
+		<li><filter><thingDefs><li>MealNutrientPaste</li></thingDefs></filter><count>25</count></li>
+		<li><filter><thingDefs><li>SNS_Unobtainium</li></thingDefs></filter><count>5</count></li>
 	</ingredients>
 	<products>
 		<SNS_Meal_Nutrient_GenI>25</SNS_Meal_Nutrient_GenI>
 	</products>
-	<workSkill>Cooking</workSkill>
-    <skillRequirements>
-      <Cooking>11</Cooking>
-    </skillRequirements>
     <researchPrerequisite>SNS_Research_II_food</researchPrerequisite>
-	<recipeUsers><li>ElectricStove</li><li>FueledStove</li></recipeUsers>
+	<recipeUsers><li>Table_SNS_NutrientProcessor</li></recipeUsers>
 </RecipeDef>
 
 
 <!-- Generation 2 -->
-<RecipeDef>
+<RecipeDef ParentName="CookMealBase">
 	<defName>SNS_Recipe_Meal_Normal_GenII</defName>
 	<label>cook decadent meal</label>
-	<description>Enhance a luxurious or lavish meal with Cosmic Matter.</description>
+	<description>Enhance a lavish meal with Cosmic Matter.</description>
 	<jobString>Cooking decadent meal.</jobString>
-	<workSpeedStat>CookSpeed</workSpeedStat>
-	<workAmount>1800</workAmount>
-	<requiredGiverWorkType>Cooking</requiredGiverWorkType>
-	<effectWorking>Cook</effectWorking>
+	<workAmount>360</workAmount>
 	<soundWorking>Recipe_CookMeal</soundWorking>
 	<ingredients>
-		<li><filter><thingDefs><li>SNS_Meal_Normal_GenI</li><li>MealLavish</li></thingDefs></filter><count>1</count></li>
+		<li><filter><thingDefs><li>MealLavish</li></thingDefs></filter><count>1</count></li>
 		<li><filter><thingDefs><li>SNS_CosmicMatter</li></thingDefs></filter><count>2</count></li>
 	</ingredients>
 	<products>
 		<SNS_Meal_Normal_GenII>1</SNS_Meal_Normal_GenII>
 	</products>
-    <workSkill>Cooking</workSkill>
-    <skillRequirements>
-      <Cooking>11</Cooking>
-    </skillRequirements>
     <researchPrerequisite>SNS_Research_III_food</researchPrerequisite>
-	<recipeUsers><li>ElectricStove</li><li>FueledStove</li></recipeUsers>
+	<recipeUsers><li>Table_SNS_NutrientProcessor</li></recipeUsers>
 </RecipeDef>
 
 <RecipeDef ParentName="CookMealBase">
 	<defName>SNS_Recipe_Bulk_Meal_Normal_GenII</defName>
 	<label>bulk cook decadent meal (x4)</label>
-	<description>Enhance four luxurious and/or lavish meals with Cosmic Matter.\n\nNote: Bulk cooking decadent meals is 15% faster overall than cooking 4 decadent meals individually, not counting time to collect and transport cooking materials.</description>
+	<description>Enhance four lavish meals with Cosmic Matter.\n\nNote: Bulk cooking decadent meals is 15% faster overall than cooking 4 decadent meals individually, not counting time to collect and transport cooking materials.</description>
 	<jobString>Cooking decadent meal.</jobString>
-	<workSpeedStat>CookSpeed</workSpeedStat>
-	<workAmount>6120</workAmount>
-	<requiredGiverWorkType>Cooking</requiredGiverWorkType>
-	<effectWorking>Cook</effectWorking>
+	<workAmount>1530</workAmount>
 	<soundWorking>Recipe_CookMeal</soundWorking>
 	<ingredients>
-		<li><filter><thingDefs><li>SNS_Meal_Normal_GenI</li><li>MealLavish</li></thingDefs></filter><count>4</count></li>
+		<li><filter><thingDefs><li>MealLavish</li></thingDefs></filter><count>4</count></li>
 		<li><filter><thingDefs><li>SNS_CosmicMatter</li></thingDefs></filter><count>8</count></li>
 	</ingredients>
 	<products>
-		<SNS_Meal_Normal_GenII>5</SNS_Meal_Normal_GenII>
+		<SNS_Meal_Normal_GenII>4</SNS_Meal_Normal_GenII>
 	</products>
-	<workSkill>Cooking</workSkill>
-    <skillRequirements>
-      <Cooking>11</Cooking>
-    </skillRequirements>
     <researchPrerequisite>SNS_Research_III_food</researchPrerequisite>
-	<recipeUsers><li>ElectricStove</li><li>FueledStove</li></recipeUsers>
+	<recipeUsers><li>Table_SNS_NutrientProcessor</li></recipeUsers>
 </RecipeDef>
 
 <RecipeDef ParentName="CookMealBase">
 	<defName>SNS_Recipe_Meal_Nutrient_GenII</defName>
-	<label>make five advanced nutrient bars</label>
-	<description>Enhance five Nutrient Bars with Cosmic Alloy and Cosmic Matter.\n\nNote: You effectively get 5 times the food from the same nutrients that would be normally put into making meals.</description>
+	<label>make advanced nutrient bars (x5)</label>
+	<description>Make five advanced nutrient bars through the further processing of nutrient paste using Cosmic Alloy and Cosmic Matter.\n\nNote: Advanced nutrient bars have 10% more nutrition value than nutrient paste.</description>
 	<jobString>Cooking advanced nutrient bars.</jobString>
-	<workSpeedStat>CookSpeed</workSpeedStat>
-	<workAmount>1500</workAmount>
-	<requiredGiverWorkType>Cooking</requiredGiverWorkType>
-	<effectWorking>Cook</effectWorking>
+	<workAmount>360</workAmount>
 	<soundWorking>Recipe_CookMeal</soundWorking>
 	<ingredients>
-		<li><filter><thingDefs><li>SNS_Meal_Nutrient_GenI</li></thingDefs></filter><count>5</count></li>
+		<li><filter><thingDefs><li>MealNutrientPaste</li></thingDefs></filter><count>5</count></li>
 		<li><filter><thingDefs><li>SNS_CosmicAlloy</li></thingDefs></filter><count>1</count></li>
 		<li><filter><thingDefs><li>SNS_CosmicMatter</li></thingDefs></filter><count>3</count></li>
 	</ingredients>
 	<products>
 		<SNS_Meal_Nutrient_GenII>5</SNS_Meal_Nutrient_GenII>
 	</products>
-	<workSkill>Cooking</workSkill>
-    <skillRequirements>
-      <Cooking>13</Cooking>
-    </skillRequirements>
     <researchPrerequisite>SNS_Research_III_food</researchPrerequisite>
-	<recipeUsers><li>ElectricStove</li><li>FueledStove</li></recipeUsers>
+	<recipeUsers><li>Table_SNS_NutrientProcessor</li></recipeUsers>
 </RecipeDef>
 
 <RecipeDef ParentName="CookMealBase">
 	<defName>SNS_Recipe_Meal_Bulk_Nutrient_GenII</defName>
-	<label>make 25 advanced nutrient bars</label>
-	<description>Enhance 25 Nutrient Bars with Cosmic Alloy and Cosmic Matter.\n\nNote: Bulk cooking advanced nutrient bars is 15% faster overall than cooking nutrient bars five times individually, not counting time to collect and transport cooking materials.</description>
+	<label>bulk make advanced nutrient bars (x25)</label>
+	<description>Make twenty-five advanced nutrient bars through the further processing of nutrient paste using Cosmic Alloy and Cosmic Matter.\n\nNote 1: Advanced nutrient bars have 10% more nutrition value than nutrient paste.\n\nNote 2: Bulk making advanced nutrient bars is 15% faster overall than cooking nutrient bars five times individually, not counting time to collect and transport cooking materials.</description>
 	<jobString>Cooking advanced nutrient bars.</jobString>
-	<workSpeedStat>CookSpeed</workSpeedStat>
-	<workAmount>6375</workAmount>
-	<requiredGiverWorkType>Cooking</requiredGiverWorkType>
-	<effectWorking>Cook</effectWorking>
+	<workAmount>1530</workAmount>
 	<soundWorking>Recipe_CookMeal</soundWorking>
 	<ingredients>
-		<li><filter><thingDefs><li>SNS_Meal_Nutrient_GenI</li></thingDefs></filter><count>25</count></li>
+		<li><filter><thingDefs><li>MealNutrientPaste</li></thingDefs></filter><count>25</count></li>
 		<li><filter><thingDefs><li>SNS_CosmicAlloy</li></thingDefs></filter><count>5</count></li>
 		<li><filter><thingDefs><li>SNS_CosmicMatter</li></thingDefs></filter><count>15</count></li>
 	</ingredients>
 	<products>
 		<SNS_Meal_Nutrient_GenII>25</SNS_Meal_Nutrient_GenII>
 	</products>
-	<workSkill>Cooking</workSkill>
-    <skillRequirements>
-      <Cooking>13</Cooking>
-    </skillRequirements>
     <researchPrerequisite>SNS_Research_III_food</researchPrerequisite>
-	<recipeUsers><li>ElectricStove</li><li>FueledStove</li></recipeUsers>
+	<recipeUsers><li>Table_SNS_NutrientProcessor</li></recipeUsers>
 </RecipeDef>
 
 
 <!-- Generation 3 -->
 <RecipeDef ParentName="CookMealBase">
 	<defName>SNS_Recipe_Meal_Normal_GenIII</defName>
-	<label>cook four hedonistic meal</label>
+	<label>cook hedonistic meal (x4)</label>
 	<description>Enhance four decadent meals with Eternium.</description>
 	<jobString>Cooking hedonistic meals.</jobString>
-	<workSpeedStat>CookSpeed</workSpeedStat>
-	<workAmount>3600</workAmount>
-	<requiredGiverWorkType>Cooking</requiredGiverWorkType>
-	<effectWorking>Cook</effectWorking>
+	<workAmount>420</workAmount>
 	<soundWorking>Recipe_CookMeal</soundWorking>
 	<ingredients>
 		<li><filter><thingDefs><li>SNS_Meal_Normal_GenII</li></thingDefs></filter><count>4</count></li>
@@ -230,12 +131,8 @@
 	<products>
 		<SNS_Meal_Normal_GenIII>4</SNS_Meal_Normal_GenIII>
 	</products>
-	<workSkill>Cooking</workSkill>
-    <skillRequirements>
-      <Cooking>15</Cooking>
-    </skillRequirements>
     <researchPrerequisite>SNS_Research_VI_food</researchPrerequisite>
-	<recipeUsers><li>ElectricStove</li><li>FueledStove</li></recipeUsers>
+	<recipeUsers><li>Table_SNS_NutrientProcessor</li></recipeUsers>
 </RecipeDef>
 
 <RecipeDef ParentName="CookMealBase">
@@ -243,10 +140,7 @@
 	<label>bulk cook hedonistic meal (x16)</label>
 	<description>Enhance sixteen decadent meals with Eternium.\n\nNote: Bulk cooking decadent meals is 15% faster overall than cooking 4 decadent meals individually, not counting time to collect and transport cooking materials.</description>
 	<jobString>Cooking hedonistic meals.</jobString>
-	<workSpeedStat>CookSpeed</workSpeedStat>
-	<workAmount>12240</workAmount>
-	<requiredGiverWorkType>Cooking</requiredGiverWorkType>
-	<effectWorking>Cook</effectWorking>
+	<workAmount>1785</workAmount>
 	<soundWorking>Recipe_CookMeal</soundWorking>
 	<ingredients>
 		<li><filter><thingDefs><li>SNS_Meal_Normal_GenII</li></thingDefs></filter><count>16</count></li>
@@ -255,62 +149,44 @@
 	<products>
 		<SNS_Meal_Normal_GenIII>16</SNS_Meal_Normal_GenIII>
 	</products>
-	<workSkill>Cooking</workSkill>
-    <skillRequirements>
-      <Cooking>15</Cooking>
-    </skillRequirements>
     <researchPrerequisite>SNS_Research_VI_food</researchPrerequisite>
-	<recipeUsers><li>ElectricStove</li><li>FueledStove</li></recipeUsers>
+	<recipeUsers><li>Table_SNS_NutrientProcessor</li></recipeUsers>
 </RecipeDef>
 
 <RecipeDef ParentName="CookMealBase">
 	<defName>SNS_Recipe_Meal_Nutrient_GenIII</defName>
-	<label>make ten luxurious nutrient bars</label>
-	<description>Enhance ten advanced Nutrient Bars with Eternium.</description>
+	<label>make luxurious nutrient bars (x10)</label>
+	<description>Make ten luxurious nutrient bars through the further processing of nutrient paste using Eternium.\n\nNote: Luxurious nutrient bars have 20% more nutrition value than nutrient paste.</description>
 	<jobString>Cooking luxurious nutrient bars.</jobString>
-	<workSpeedStat>CookSpeed</workSpeedStat>
-	<workAmount>3600</workAmount>
-	<requiredGiverWorkType>Cooking</requiredGiverWorkType>
-	<effectWorking>Cook</effectWorking>
+	<workAmount>420</workAmount>
 	<soundWorking>Recipe_CookMeal</soundWorking>
 	<ingredients>
-		<li><filter><thingDefs><li>SNS_Meal_Nutrient_GenII</li></thingDefs></filter><count>10</count></li>
+		<li><filter><thingDefs><li>MealNutrientPaste</li></thingDefs></filter><count>10</count></li>
 		<li><filter><thingDefs><li>SNS_Eternium</li></thingDefs></filter><count>1</count></li>
 	</ingredients>
 	<products>
 		<SNS_Meal_Nutrient_GenIII>10</SNS_Meal_Nutrient_GenIII>
 	</products>
-	<workSkill>Cooking</workSkill>
-    <skillRequirements>
-      <Cooking>18</Cooking>
-    </skillRequirements>
     <researchPrerequisite>SNS_Research_VI_food</researchPrerequisite>
-	<recipeUsers><li>ElectricStove</li><li>FueledStove</li></recipeUsers>
+	<recipeUsers><li>Table_SNS_NutrientProcessor</li></recipeUsers>
 </RecipeDef>
 
 <RecipeDef ParentName="CookMealBase">
 	<defName>SNS_Recipe_Bulk_Meal_Nutrient_GenIII</defName>
-	<label>bulk make 50 luxurious nutrient bars</label>
-	<description>Enhance fifty advanced nutrient bars with Eternium.\n\nNote: Bulk cooking luxurious nutrient bars is 15% faster overall than cooking luxurious nutrient bars five times individually, not counting time to collect and transport cooking materials.</description>
+	<label>bulk make luxurious nutrient bars (x50)</label>
+	<description>Make fifty luxurious nutrient bars through the further processing of nutrient paste using Eternium.\n\nNote 1: Luxurious nutrient bars have 20% more nutrition value than nutrient paste.\n\nNote 2: Bulk making luxurious nutrient bars is 15% faster overall than cooking luxurious nutrient bars five times individually, not counting time to collect and transport cooking materials.</description>
 	<jobString>Cooking luxurious nutrient bars.</jobString>
-	<workAmount>12240</workAmount>
-	<workSpeedStat>CookSpeed</workSpeedStat>
-	<requiredGiverWorkType>Cooking</requiredGiverWorkType>
-	<effectWorking>Cook</effectWorking>
+	<workAmount>1785</workAmount>
 	<soundWorking>Recipe_CookMeal</soundWorking>
 	<ingredients>
-		<li><filter><thingDefs><li>SNS_Meal_Nutrient_GenII</li></thingDefs></filter><count>50</count></li>
+		<li><filter><thingDefs><li>MealNutrientPaste</li></thingDefs></filter><count>50</count></li>
 		<li><filter><thingDefs><li>SNS_Eternium</li></thingDefs></filter><count>5</count></li>
 	</ingredients>
 	<products>
 		<SNS_Meal_Nutrient_GenIII>50</SNS_Meal_Nutrient_GenIII>
 	</products>
-	<workSkill>Cooking</workSkill>
-    <skillRequirements>
-      <Cooking>18</Cooking>
-    </skillRequirements>
     <researchPrerequisite>SNS_Research_VI_food</researchPrerequisite>
-	<recipeUsers><li>ElectricStove</li><li>FueledStove</li></recipeUsers>
+	<recipeUsers><li>Table_SNS_NutrientProcessor</li></recipeUsers>
 </RecipeDef>
 
 </Defs>

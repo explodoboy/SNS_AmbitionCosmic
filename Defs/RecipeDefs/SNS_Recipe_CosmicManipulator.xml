@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-
 	<RecipeDef Abstract="True" Name="SNS_DrawCosmicMatter">
 		<defName>SNS_Production_CosmicDrawer_DrawCosmicMatter_Base</defName>
 		<jobString>Drawing Cosmic Matter</jobString>
 		<!--workSpeedStat>SmithingSpeed</workSpeedStat-->
-		<workSkill></workSkill>
 		<skillRequirements></skillRequirements>
 		<workAmount>45000</workAmount>
+        <workSkill>Intellectual</workSkill>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<ingredients></ingredients>
 		<fixedIngredientFilter></fixedIngredientFilter>
@@ -26,8 +25,8 @@
 		<defName>SNS_Production_CosmicDrawer_ForgeCosmicAlloy_Base</defName>
 		<jobString>Forging Cosmic Alloy</jobString>
 		<!--workSpeedStat>SmithingSpeed</workSpeedStat-->
-		<workSkill></workSkill>
 		<skillRequirements></skillRequirements>
+        <workSkill>Intellectual</workSkill>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<ingredients></ingredients>
 		<fixedIngredientFilter></fixedIngredientFilter>
@@ -75,7 +74,6 @@
 		<defName>SNS_Production_CosmicDrawer_ForgeCosmicWeave_Base</defName>
 		<jobString>Forging Cosmic Weave</jobString>
 		<!--workSpeedStat>SmithingSpeed</workSpeedStat-->
-		<workSkill></workSkill>
 		<skillRequirements></skillRequirements>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<ingredients></ingredients>
@@ -98,8 +96,8 @@
 	<RecipeDef Abstract="True" Name="SNS_CosmicDrawer_ForgeCatalystCells">
 		<defName>SNS_Production_CosmicDrawer_ForgeFuelCells_Base</defName>
 		<!--workSpeedStat>SmithingSpeed</workSpeedStat-->
-		<workSkill></workSkill>
 		<skillRequirements></skillRequirements>
+        <workSkill>Intellectual</workSkill>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<ingredients></ingredients>
 		<fixedIngredientFilter></fixedIngredientFilter>
@@ -140,6 +138,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<workAmount>4500</workAmount>
+        <workSkill>Intellectual</workSkill>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 		<jobString>Creating Cosmic medicine</jobString>
@@ -168,6 +167,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<workAmount>19125</workAmount>
+        <workSkill>Intellectual</workSkill>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 		<jobString>Creating Cosmic medicine</jobString>
@@ -194,6 +194,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<workAmount>9000</workAmount>
+        <workSkill>Intellectual</workSkill>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 		<jobString>Creating enigmatic medicine</jobString>
@@ -217,6 +218,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<workAmount>38250</workAmount>
+        <workSkill>Intellectual</workSkill>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 		<jobString>Creating enigmatic medicine</jobString>
@@ -240,6 +242,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<workAmount>3000</workAmount>
+        <workSkill>Intellectual</workSkill>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 		<jobString>Creating aeterno</jobString>
@@ -263,6 +266,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<workAmount>12750</workAmount>
+        <workSkill>Intellectual</workSkill>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 		<jobString>Creating aeterno</jobString>
@@ -288,6 +292,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<workAmount>1500</workAmount>
+        <workSkill>Intellectual</workSkill>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 		<jobString>Creating panacea</jobString>
@@ -311,6 +316,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<workAmount>3000</workAmount>
+        <workSkill>Intellectual</workSkill>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 		<jobString>Creating STIM-VI</jobString>
@@ -334,6 +340,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<workAmount>12750</workAmount>
+        <workSkill>Intellectual</workSkill>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 		<jobString>Creating STIM_VI</jobString>
@@ -357,6 +364,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<workAmount>17500</workAmount>
+        <workSkill>Intellectual</workSkill>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 		<jobString>Creating STIM-X</jobString>
@@ -380,6 +388,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<workAmount>750</workAmount>
+        <workSkill>Intellectual</workSkill>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 		<jobString>Making cosmic component</jobString>
@@ -403,6 +412,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<workAmount>3187</workAmount>
+        <workSkill>Intellectual</workSkill>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 		<jobString>Making cosmic component</jobString>
@@ -426,6 +436,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<workAmount>1500</workAmount>
+        <workSkill>Intellectual</workSkill>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 		<jobString>Making enigmatic component</jobString>
@@ -449,6 +460,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<workAmount>6375</workAmount>
+        <workSkill>Intellectual</workSkill>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 		<jobString>Making enigmatic component</jobString>
@@ -473,9 +485,8 @@
 				<li>SNS_Eternium</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<workSkill>Crafting</workSkill>
 		<workAmount>250000</workAmount>
+        <workSkill>Intellectual</workSkill>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 		<skillRequirements><Crafting>20</Crafting></skillRequirements>
