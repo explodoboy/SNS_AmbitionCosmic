@@ -58,7 +58,6 @@
   </ThingDef>
 	
 <ThingDef Name="ApparelCosmicPowerArmorBase" ParentName="ArmorMachineableBase" Abstract="True">
-	<thingClass>D9ASB.RangedShieldBelt</thingClass>
 	<techLevel>Archotech</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -88,9 +87,6 @@
       <Insulation_Cold>125</Insulation_Cold>
       <Insulation_Heat>85</Insulation_Heat>
       <EquipDelay>12</EquipDelay>
-	  
-      <EnergyShieldRechargeRate>0.25</EnergyShieldRechargeRate>
-      <EnergyShieldEnergyMax>5</EnergyShieldEnergyMax>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>1</MoveSpeed>
@@ -131,9 +127,6 @@
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
 	  <careIfWornByCorpse>false</careIfWornByCorpse>
     </apparel>
-    <comps>
-      <li Class="CompProperties_BiocodableApparel"/>
-    </comps>
     <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
 </ThingDef>
 	

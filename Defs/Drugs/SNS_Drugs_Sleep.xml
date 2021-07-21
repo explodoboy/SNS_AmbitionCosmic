@@ -77,7 +77,7 @@
   <ThingDef ParentName="DrugPillBase">
     <defName>SNS_Stim_II</defName>
     <label>STIM-VII</label>
-    <description>A nanite stimulant. STIM-VII reduces the user's need for sleep drastically by acting out the processes that cause restfulness in the brain, naturally reducing the need for sleep without risk of a crash. The effects last for two days. There is no risk of addiction from use of STIM-VII. Up to four doses can be taken at once for a maximum duration of eight days.\n\nSTIM-VII is seen occasionally on Glitterworlds, imported directly from a Cosmic Empire. STIM-VII sees heavy use in various militaries due to it being incredibly effective for reducing soldier sleep times and allowing one to stay awake for highly extended periods of time.</description>
+    <description>A nanite stimulant. STIM-VII reduces the user's need for sleep drastically by acting out the processes that cause restfulness in the brain, naturally reducing the need for sleep without risk of a crash. It also artificially generates structured Psyfocus. The effects last for two days. There is no risk of addiction from use of STIM-VII. Up to four doses can be taken at once for a maximum duration of eight days.\n\nSTIM-VII is seen occasionally on Glitterworlds, imported directly from a Cosmic Empire. STIM-VII sees heavy use in various militaries due to it being incredibly effective for reducing soldier sleep times, allowing one to stay awake for highly extended periods of time, and providing a steady supply of Psyfocus.</description>
     <descriptionHyperlinks>
       <HediffDef>SNS_Stim_II</HediffDef>
     </descriptionHyperlinks>
@@ -134,6 +134,10 @@
       <stages>
         <li>
           <restFallFactor>0.25</restFallFactor>
+          <statOffsets>
+            <WorkSpeedGlobal>1</WorkSpeedGlobal>
+            <MeditationFocusGain MayRequire="Ludeon.RimWorld.Royalty">1</MeditationFocusGain>
+          </statOffsets>
         </li>
       </stages>
   </HediffDef>
@@ -211,7 +215,7 @@
           </capMods>
           <statOffsets>
             <WorkSpeedGlobal>1</WorkSpeedGlobal>
-            <MeditationFocusGain MayRequire="Ludeon.RimWorld.Royalty">0.5</MeditationFocusGain>
+            <MeditationFocusGain MayRequire="Ludeon.RimWorld.Royalty">6</MeditationFocusGain>
           </statOffsets>
         </li>
       </stages>
