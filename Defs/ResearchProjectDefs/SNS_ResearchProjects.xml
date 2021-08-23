@@ -654,6 +654,9 @@
 		</prerequisites>
 		<researchViewX>33</researchViewX>
 		<researchViewY>2.2</researchViewY>
+		<modExtensions>
+			<li Class="InfiniteResearch.ResearchExtension_Infinite" />
+		</modExtensions>
 	</ResearchProjectDef>
 
 </Defs>
