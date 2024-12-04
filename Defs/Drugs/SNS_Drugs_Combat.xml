@@ -5,7 +5,7 @@
   <ThingDef ParentName="MakeableDrugBase">
     <defName>SNS_Drug_Combat_I</defName>
     <label>boost</label>
-    <description>A synthetic performance-enhancing drug. Boost blocks pain, increases movement speed, and improves the user's melee and shooting abilities.\n\nBoost is used heavily by glitterworld militaries, and was made as a successor to go-juice.</description>
+    <description>A synthetic performance-enhancing drug. Boost blocks pain, increases movement speed, improves the user's melee and shooting abilities, and provides a significant boost to psychic abilities.\n\nBoost is used heavily by glitterworld militaries, and was made as a successor to go-juice.</description>
     <descriptionHyperlinks>
       <HediffDef>SNS_Drug_Combat_I</HediffDef>
     </descriptionHyperlinks>
@@ -79,7 +79,7 @@
     <hediffClass>Hediff_High</hediffClass>
     <label>high on boost</label>
     <labelNoun>a boost high</labelNoun>
-    <description>Boost in the bloodstream. It supercharges combat-related abilities, and instantly increases psyfocus when first injected.</description>
+    <description>Boost in the bloodstream. It supercharges combat-related abilities and psychic powers.</description>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
@@ -111,6 +111,10 @@
               <offset>0.35</offset>
             </li>
           </capMods>
+            <statFactors>
+                <PsychicEntropyMax MayRequire="Ludeon.RimWorld.Royalty">1.5</PsychicEntropyMax>
+                <PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">2</PsychicEntropyRecoveryRate>
+            </statFactors>
         </li>
       </stages>
   </HediffDef>
@@ -119,7 +123,7 @@
   <ThingDef ParentName="MakeableDrugBase">
     <defName>SNS_Drug_Combat_II</defName>
     <label>accelerant</label>
-    <description>A synthetic performance-enhancing drug cocktail. Accelerant blocks pain, increases movement speed, and improves the user's melee and shooting abilities.\n\nIt is heavily used by Cosmic Empire militaries.\n\nNOTE: This drug also gives the effects of Boost.</description>
+    <description>A synthetic performance-enhancing drug cocktail. Accelerant blocks pain, increases movement speed, improves the user's melee and shooting abilities, and provides significant boosts to psychic abilities.\n\nIt is heavily used by Cosmic Empire militaries.\n\nNOTE: This drug also gives the effects of Boost.</description>
     <descriptionHyperlinks>
       <HediffDef>SNS_Drug_Combat_II</HediffDef>
     </descriptionHyperlinks>
@@ -196,7 +200,7 @@
     <hediffClass>Hediff_High</hediffClass>
     <label>high on accelerant</label>
     <labelNoun>an accelerant high</labelNoun>
-    <description>Accelerant in the bloodstream. It supercharges combat-related abilities, and instantly increases psyfocus when first injected.</description>
+    <description>Accelerant in the bloodstream. It supercharges combat-related abilities and psychic powers.</description>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
@@ -229,6 +233,10 @@
               <offset>0.35</offset>
             </li>
           </capMods>
+            <statFactors>
+                <PsychicEntropyMax MayRequire="Ludeon.RimWorld.Royalty">1.75</PsychicEntropyMax>
+                <PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">3</PsychicEntropyRecoveryRate>
+            </statFactors>
         </li>
       </stages>
   </HediffDef>
@@ -237,7 +245,7 @@
   <ThingDef ParentName="MakeableDrugBase">
     <defName>SNS_Drug_Combat_III</defName>
     <label>ascendance</label>
-    <description>A heavy synthetic performance-enhancing drug cocktail. Ascendance blocks pain, increases movement speed, and improves the user's melee and shooting abilities.\n\nNOTE: This drug also gives the effects of Boost and Accelerant.</description>
+    <description>A heavy synthetic performance-enhancing drug cocktail. Ascendance blocks pain, increases movement speed, improves the user's melee and shooting abilities, and provides massive boosts to psychica abilities\n\nNOTE: This drug also gives the effects of Boost and Accelerant.</description>
     <descriptionHyperlinks>
       <HediffDef>SNS_Drug_Combat_III</HediffDef>
     </descriptionHyperlinks>
@@ -284,7 +292,7 @@
           <offset>1</offset>
         </li>
         <li Class="IngestionOutcomeDoer_OffsetPsyfocus">
-          <offset>0.5</offset>
+          <offset>1</offset>
         </li>
       </outcomeDoers>
     </ingestible>
@@ -318,7 +326,7 @@
     <hediffClass>Hediff_High</hediffClass>
     <label>high on ascendance</label>
     <labelNoun>an ascendance high</labelNoun>
-    <description>Ascendance in the bloodstream. It supercharges combat-related abilities, and instantly increases psyfocus when first injected.</description>
+    <description>Ascendance in the bloodstream. It supercharges combat-related abilities and psychic powers.</description>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
@@ -351,6 +359,10 @@
               <offset>0.35</offset>
             </li>
           </capMods>
+            <statFactors>
+                <PsychicEntropyMax MayRequire="Ludeon.RimWorld.Royalty">2.25</PsychicEntropyMax>
+                <PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">5</PsychicEntropyRecoveryRate>
+            </statFactors>
         </li>
       </stages>
   </HediffDef>

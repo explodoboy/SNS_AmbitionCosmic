@@ -31,6 +31,10 @@
 	
 	-->
 
+<ThingDef Name="SNS_BaseTurretBuilding" ParentName="BuildingBase" Abstract = "True">
+    <drawerType>MapMeshAndRealTime</drawerType>
+</ThingDef>
+
 <!-- Light CT -->
 
 <ThingDef ParentName="BaseWeaponTurret">
@@ -72,7 +76,7 @@
     <label>light stellar turret projectile</label>
 </ThingDef>
 
-<ThingDef ParentName="BuildingBase">
+<ThingDef ParentName="SNS_BaseTurretBuilding">
 	<defName>SNS_Turret_LightCosmic</defName>
 	<label>light stellar turret</label>
 	<description>A portable automatic turret made of durable Starsteel and Plasteel. Requires Plasteel to refurbish its barrel after heavy use.</description>
@@ -208,7 +212,7 @@
 	</verbs>
 </ThingDef>
 
-<ThingDef ParentName="BuildingBase">
+<ThingDef ParentName="SNS_BaseTurretBuilding">
 	<defName>SNS_Turret_PerditionLightCosmic</defName>
 	<label>perdition light stellar turret</label>
 	<description>A portable automatic turret made of durable Starsteel and Plasteel. Requires Plasteel to refurbish its barrel after heavy use.\n\nThis variant does not have a burst nor a cooldown between said bursts. Instead, it constantly fires at a steady pace until its barrels are destroyed.</description>

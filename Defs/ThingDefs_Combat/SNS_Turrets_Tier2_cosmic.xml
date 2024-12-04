@@ -79,7 +79,7 @@
     <label>overcharged cosmic turret projectile</label>
 </ThingDef>
 
-<ThingDef ParentName="BuildingBase">
+<ThingDef ParentName="SNS_BaseTurretBuilding">
 	<defName>SNS_Turret_Cosmic</defName>
 	<label>cosmic turret</label>
 	<description>A heavy automatic turret. Fires like a minigun, spewing its reserves at whatever crosses its path without remorse. Requires a large amount of Plasteel to refurbish its barrel after heavy use.</description>
@@ -212,7 +212,7 @@
 	</verbs>
 </ThingDef>
 
-<ThingDef ParentName="BuildingBase">
+<ThingDef ParentName="SNS_BaseTurretBuilding">
 	<defName>SNS_Turret_PerditionCosmic</defName>
 	<label>perdition cosmic turret</label>
 	<description>A heavy automatic turret. Fires like at a rapid pace, spewing its reserves at whatever crosses its path without remorse or cooldown. Requires a large amount of Plasteel to refurbish its barrel after heavy use.</description>
@@ -344,7 +344,7 @@
 	</verbs>
 </ThingDef>
 
-<ThingDef ParentName="BuildingBase">
+<ThingDef ParentName="SNS_BaseTurretBuilding">
 	<defName>SNS_Turret_EternalCosmic</defName>
 	<label>eternal cosmic turret</label>
 	<description>A heavy automatic turret. Fires like a minigun, spewing its reserves at whatever crosses its path without remorse. It does not need refurbishment or refueling, ever, nor can it break down.</description>
@@ -464,7 +464,7 @@
 	</verbs>
 </ThingDef>
 
-<ThingDef ParentName="BuildingBase">
+<ThingDef ParentName="SNS_BaseTurretBuilding">
 	<defName>SNS_Turret_EternalPerditionCosmic</defName>
 	<label>eternal perdition cosmic turret</label>
 	<description>A heavy automatic turret. Fires like at a rapid pace, spewing its reserves at whatever crosses its path without remorse or cooldown. It does not require refurbishment or refueling, ever, nor can it break down.</description>

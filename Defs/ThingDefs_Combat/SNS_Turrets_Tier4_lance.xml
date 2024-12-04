@@ -77,7 +77,7 @@
 	</verbs>
 </ThingDef>
 
-<ThingDef ParentName="BuildingBase">
+<ThingDef ParentName="SNS_BaseTurretBuilding">
 	<defName>SNS_Turret_Lance</defName>
 	<label>Automated Lance</label>
 	<description>A highly advanced automatic turret that uses a Cosmic Lance as its weapon of choice. Fires very slowly and consumes five Cosmic Catalyst Fuel Cells per shot. Must be reloaded occasionally with Cosmic Catalyst Fuel Cells.\n\nJust like the Cosmic Lance, the turret excels at extremely close and long range, but is highly inconsistent at mid-range.</description>
@@ -211,7 +211,7 @@
 	</verbs>
 </ThingDef>
 
-<ThingDef ParentName="BuildingBase">
+<ThingDef ParentName="SNS_BaseTurretBuilding">
 	<defName>SNS_Turret_HighStorageLance</defName>
 	<label>Deep Storage Automated Lance</label>
 	<description>A highly advanced automatic turret that uses a Cosmic Lance as its weapon of choice. Fires very slowly and consumes five Cosmic Catalyst Fuel Cells per shot. Must be reloaded occasionally with Cosmic Catalyst Fuel Cells.\n\nJust like the Cosmic Lance, the turret excels at extremely close and long range, but is highly inconsistent at min-range.\n\nThis specific varient has five times the fuel capacity as the standard variant and isn't as well armored.</description>
@@ -345,7 +345,7 @@
 	</verbs>
 </ThingDef>
 
-<ThingDef ParentName="BuildingBase">
+<ThingDef ParentName="SNS_BaseTurretBuilding">
 	<defName>SNS_Turret_PerditionLance</defName>
 	<label>Overdrive Automated Lance</label>
 	<description>A highly advanced automatic turret that uses a Cosmic Lance as its weapon of choice. Fires somewhat slowly and consumes five Cosmic Catalyst Fuel Cells per shot. It uses Cosmic Matter as coolant of sorts to increase its fire rate. Must be reloaded occasionally with Cosmic Catalyst Fuel Cells.\n\nJust like the Cosmic Lance, the turret excels at extremely close and long range, but is highly inconsistent at mid-range.</description>
@@ -479,7 +479,7 @@
 	</verbs>
 </ThingDef>
 
-<ThingDef ParentName="BuildingBase">
+<ThingDef ParentName="SNS_BaseTurretBuilding">
 	<defName>SNS_Turret_PerditionHighStorageLance</defName>
 	<label>Deep Storage Overdrive Automated Lance</label>
 	<description>A highly advanced automatic turret that uses a Cosmic Lance as its weapon of choice. Fires somewhat slowly and consumes five Cosmic Catalyst Fuel Cells per shot. It uses Cosmic Matter as coolant to increase its fire rate. Must be reloaded occasionally with Cosmic Catalyst Fuel Cells.\n\nJust like the Cosmic Lance, the turret excels at extremely close and long range, but is highly inconsistent at mid-range.\n\nThis specific varient has five times the fuel capacity as the standard variant and isn't as well armored.</description>
@@ -614,7 +614,7 @@
 	</verbs>
 </ThingDef>
 
-<ThingDef ParentName="BuildingBase">
+<ThingDef ParentName="SNS_BaseTurretBuilding">
 	<defName>SNS_Turret_EternalLance</defName>
 	<label>Eternal Automated Lance</label>
 	<description>A highly advanced automatic turret that uses an overcharged Cosmic Lance as its weapon of choice. Fires at a decent rate (blazing for the likes of Cosmic Lances) and does not require any fuel other than what is used to build it. Every three seconds it unleashes a burst of two Cosmic Lance projectiles.\n\nJust like the Cosmic Lance, the turret excels at extremely close and long range, but is highly inconsistent at mid-range.</description>
@@ -743,7 +743,7 @@
 	</verbs>
 </ThingDef>
 
-<ThingDef ParentName="BuildingBase">
+<ThingDef ParentName="SNS_BaseTurretBuilding">
 	<defName>SNS_Turret_EnigmaticLance</defName>
 	<label>Enigmatic Lance</label>
 	<description>A highly volatile turret that uses a Cosmic Lance powered by an enigmatic power as its weapon of choice. While it takes a while to charge, it makes up for the wait by unleashing a violent volley of low-energy Eternium projectiles that are on-par with the Cosmic Lance.\n\nWhile the turret won't explode, the danger of the turret still lies in its ability to lay waste to whatever lies in its path.\n\nJust like the Cosmic Lance, the turret excels at extremely close and long range, but is highly inconsistent at mid-range.</description>

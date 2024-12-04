@@ -11,7 +11,7 @@
   <ThingDef ParentName="SNS_MealBase">
     <defName>SNS_Meal_Nutrient_GenI</defName>
     <label>nutrient bar</label>
-    <description>A solidified nutrient-paste-like bar of protein, carbohydrates, and vitamins, amino acids and minerals prepared in a way that it won't spoil. Everything the body needs. It tastes horrible and is somehow simultaneously hard like hardtack and then is powdery when you finally are able to chew it. Most would prefer Nutrient Paste over this monstrosity.\n\nUnlike Nutrient Paste, the Nutrient Bar will not go bad or spoil, but it will still deteriorate at a very slow rate when left outside.</description>
+    <description>A solidified nutrient-paste-like bar of protein, carbohydrates, vitamins, amino acids and minerals prepared in a way that it won't spoil. Everything the body needs. It tastes horrible and is somehow simultaneously hard like hardtack and then is powdery when you finally are able to chew it. Most would prefer Nutrient Paste over this monstrosity.\n\nUnlike Nutrient Paste, the Nutrient Bar will not go bad or spoil, but it will still deteriorate at a very slow rate when left outside.</description>
     <graphicData>
       <texPath>Things/Item/Meal/SNS/NutrientBarG1/NutrientBarG1</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -35,7 +35,7 @@
   <ThingDef ParentName="SNS_MealBase">
     <defName>SNS_Meal_Nutrient_GenII</defName>
     <label>advanced nutrient bar</label>
-    <description>A nutrient bar made of of protein, carbohydrates, and vitamins, amino acids, minerals, a small amount of Cosmic Alloy and Cosmic Matter that won't spoil or deteriorate. Everything the body needs. It is enhanced with Cosmic Alloy and a trace amount of Cosmic Matter to eliminate any flavor, and is slightly chewy, making a foodstuff that is completely neutral in experience. People won't feel worse or better from eating this.</description>
+    <description>A nutrient bar made of of protein, carbohydrates, vitamins, amino acids, minerals, a small amount of Cosmic Alloy and Cosmic Matter that won't spoil or deteriorate. Everything the body needs. It is enhanced with Cosmic Alloy and a trace amount of Cosmic Matter to eliminate any flavor, and is slightly chewy, making a foodstuff that is completely neutral in experience. People won't feel worse or better from eating this.</description>
     <graphicData>
       <texPath>Things/Item/Meal/SNS/NutrientBarG2/NutrientBarG2</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -64,7 +64,7 @@
   <ThingDef ParentName="SNS_MealBase">
     <defName>SNS_Meal_Nutrient_GenIII</defName>
     <label>luxurious nutrient bar</label>
-    <description>A nutrient bar made of of protein, carbohydrates, and vitamins, amino acids, minerals, a small amount of Eternium that won't spoil or deteriorate. Everything the body needs. It is enhanced with Eternium to make it taste as good as it can while retaining a good texture, making a foodstuff equal to the Lavish Meal in experience.</description>
+    <description>A nutrient bar made of of protein, carbohydrates, vitamins, amino acids, minerals, a small amount of Eternium that won't spoil or deteriorate. Everything the body needs. It is enhanced with Eternium to make it taste as good as it can while retaining a good texture, making a foodstuff equal to the Lavish Meal in experience.</description>
     <graphicData>
       <texPath>Things/Item/Meal/SNS/NutrientBarG3/NutrientBarG3</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>

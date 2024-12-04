@@ -61,7 +61,7 @@
         <graphicData>
             <texPath>Things/Building/Misc/SNS/Linkable/Research/Linkable_Unlocker_Gen2</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>3</drawSize>
+            <drawSize>2.7</drawSize>
         </graphicData>
         <size>(2,2)</size>
         <uiIconScale>0.85</uiIconScale>
@@ -113,7 +113,7 @@
         <graphicData>
             <texPath>Things/Building/Misc/SNS/Linkable/Research/Linkable_Unlocker_Gen3</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(3,3)</drawSize>
+            <drawSize>3</drawSize>
         </graphicData>
         <size>(3,3)</size>
         <uiIconScale>0.85</uiIconScale>
@@ -169,9 +169,9 @@
         <graphicData>
             <texPath>Things/Building/Misc/SNS/Linkable/Research/Linkable_Unlocker_Gen4</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>18.8</drawSize>
+            <drawSize>7</drawSize>
         </graphicData>
-        <size>(8,8)</size>
+        <size>(3,3)</size>
         <uiIconScale>0.85</uiIconScale>
         <researchPrerequisites><li>SNS_Research_VI_final</li></researchPrerequisites>
         <rotatable>false</rotatable>

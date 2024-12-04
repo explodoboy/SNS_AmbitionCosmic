@@ -40,11 +40,7 @@
 	<HediffDef Name="SNS_BionicHediff_GenI" ParentName="AddedBodyPartBase" Abstract="True">
 		<defName>SNS_Base_BionicHediff_GenI</defName>
 		<defaultLabelColor>(175,155,0)</defaultLabelColor>
-		<comps>
-			<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
-				<scaleAdjustment>1</scaleAdjustment>
-			</li>
-		</comps>
+        <comps/>
 		<addedPartProps>
 			<solid>true</solid>
 			<partEfficiency>1.5</partEfficiency>
@@ -55,11 +51,7 @@
 	<HediffDef Name="SNS_BionicImplantHediff_GenI" ParentName="ImplantHediffBase" Abstract="True">
 		<defName>SNS_Base_BionicHediffImplant_GenI</defName>
 		<defaultLabelColor>(175,155,0)</defaultLabelColor>
-		<comps>
-			<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
-				<scaleAdjustment>1</scaleAdjustment>
-			</li>
-		</comps>
+        <comps/>
 		<addedPartProps>
 			<solid>true</solid>
 			<partEfficiency>1</partEfficiency>
@@ -684,10 +676,16 @@
 		<spawnThingOnRemoved>SNS_Item_BionicBrain_GenI</spawnThingOnRemoved>
         <stages>
             <li>
+                <painFactor>0.33</painFactor>
                 <makeImmuneTo>
                 <li>Dementia</li>
                 <li>Alzheimers</li>
+                <li>PsychicShock</li>
                 </makeImmuneTo>
+                <statFactors>
+                    <PsychicEntropyMax MayRequire="Ludeon.RimWorld.Royalty">1.35</PsychicEntropyMax>
+                    <PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">1.35</PsychicEntropyRecoveryRate>
+                </statFactors>
             </li>
         </stages>
 	</HediffDef>

@@ -73,7 +73,7 @@
 		<blockWind>false</blockWind>
 		<rotatable>true</rotatable>
 		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<fillPercent>0.4</fillPercent>
 		<pathCost>40</pathCost>
 		<passability>PassThroughOnly</passability>
@@ -508,7 +508,7 @@
 		<inspectorTabs><li>ITab_Bills</li></inspectorTabs>
 		<building><spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity></building>
 		<recipes></recipes>
-		<researchPrerequisites><li>SNS_Research_I</li></researchPrerequisites>
+		<researchPrerequisites><li>SNS_Research_II_food</li></researchPrerequisites>
 		<placeWorkers><li>PlaceWorker_ShowFacilitiesConnections</li></placeWorkers>
 	</ThingDef>
 

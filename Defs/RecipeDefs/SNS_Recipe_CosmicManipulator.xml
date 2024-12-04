@@ -322,7 +322,7 @@
 		<jobString>Creating STIM-VI</jobString>
 		<recipeUsers><li>Table_SNS_CosmicDrawer</li></recipeUsers>
 		<products><SNS_Stim_II>3</SNS_Stim_II></products>
-		<researchPrerequisite>SNS_Research_VI_medicine</researchPrerequisite>
+		<researchPrerequisite>SNS_Research_III_drugs</researchPrerequisite>
 	</RecipeDef>
 
 	<RecipeDef>
@@ -346,7 +346,7 @@
 		<jobString>Creating STIM_VI</jobString>
 		<recipeUsers><li>Table_SNS_CosmicDrawer</li></recipeUsers>
 		<products><SNS_Stim_II>15</SNS_Stim_II></products>
-		<researchPrerequisite>SNS_Research_VI_medicine</researchPrerequisite>
+		<researchPrerequisite>SNS_Research_III_drugs</researchPrerequisite>
 	</RecipeDef>
 
 	<RecipeDef>

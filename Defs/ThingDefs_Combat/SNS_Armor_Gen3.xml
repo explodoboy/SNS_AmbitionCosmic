@@ -66,7 +66,6 @@
     <defName>SNS_Apparel_StableMatterPowerArmor</defName>
     <label>CHARON Armor</label>
     <description>A suit of Abyssal Power Armor fueled by Eternium. Incredibly lightweight, tough, protective, and comfortable, this suit of power armor is far superior to that of its previous generation in every way imaginable. Its protective barrier is nigh-indestructible, and one would have to be trying to get in harm's way.\n\nThis helmet is truly arcane, and is beyond that of anything else. There are only a few dozen of these suits known of in the galaxy, most of them broken beyond repair.</description>
-	<thingClass>D9ASB.RangedShieldBelt</thingClass>
 	<techLevel>Archotech</techLevel>
 	<useHitPoints>false</useHitPoints>
     <recipeMaker>
@@ -101,6 +100,11 @@
       <EnergyShieldRechargeRate>0.75</EnergyShieldRechargeRate>
       <EnergyShieldEnergyMax>50</EnergyShieldEnergyMax>
     </statBases>
+    <comps>
+      <li Class="CompProperties_Shield">
+        <compClass>Armorshield.CompShieldRanged</compClass>
+      </li>
+    </comps>
     <equippedStatOffsets>
       <MoveSpeed>4</MoveSpeed>
 	  <!-- <CarryingCapacity>250</CarryingCapacity> --> <!-- Doesn't work at the moment. I'll try something else maybe later. -->
@@ -139,9 +143,6 @@
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
 	  <careIfWornByCorpse>false</careIfWornByCorpse>
     </apparel>
-    <comps>
-      <li Class="CompProperties_BiocodableApparel"/>
-    </comps>
   </ThingDef>
   
 </Defs>

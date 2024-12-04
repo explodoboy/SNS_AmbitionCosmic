@@ -534,7 +534,7 @@
         <volume>(0.7, 0.7, 0.7)</volume>
       </shadowData>
     </graphicData>
-    <canBeUsedUnderRoof>false</canBeUsedUnderRoof>
+    <canBeUsedUnderRoof>true</canBeUsedUnderRoof>
     <fillPercent>0.6</fillPercent>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>

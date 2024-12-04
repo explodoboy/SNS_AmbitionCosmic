@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>SNS_Hidden</defName>
 		<label>Eternity Cell</label>
-		<description>Beholden to all, the Eternity Cell. Its unblinking, undying gaze basks in the wonders of all Eternity, its inner workings an utter mystery to the universe outside. Energy flows from within, providing an endless source of power and will.\n\nThose who bask in the glory of its watchful eye are often taken by its unmoving stare. It's an untold beauty, something Beyond Our Understanding. One does not need the ability to see to behold the Eternity Cell.\n\nPerhaps we will never understand its secrets...but then again, did we ever let the ceiling stop us before?\n\nStats: You will never have to worry about Power ever again.</description>
+		<description>Behold, the Eternity cell. Its unblinking, undying gaze basks in the bliss of all Eternity itself, its inner workings an uttery mystery to the universe outside. It is a source of endless power and will.\n\nGaze into its eye, and feel the bliss of an eterniy overtake you, or feel your own will regenerate.\n\nStats:You will never have to worry about power again.\nColonists may admire the Eternity Cell for very fast recreation.\n(ROYALTY DLC ONLY): Pawns may meditate to the Eternity Cell to quickly charge their Psyfocus.</description>
 		<thingClass>Building</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Joy/SNS/Hidden</texPath>
@@ -28,6 +28,7 @@
 			<Mass>5.0</Mass>
 			<Beauty>1000</Beauty>
             <JoyGainFactor>10</JoyGainFactor>
+            <MeditationFocusStrength>10</MeditationFocusStrength>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<canOverlapZones>false</canOverlapZones>
@@ -48,6 +49,19 @@
 				<glowRadius>20</glowRadius>
 				<glowColor>(120,0,255,0)</glowColor>
 			</li>
+            <li Class="CompProperties_MeditationFocus">
+            <statDef>MeditationFocusStrength</statDef>
+                <focusTypes>
+                    <li>SNS_GeneralMeditation</li>
+                </focusTypes>
+            <offsets>
+            <li Class="FocusStrengthOffset_BuildingDefs">
+                <!--defs><DEFNAME>0.02</DEFNAME></defs-->
+                <radius>10</radius>
+                <maxBuildings>1</maxBuildings>
+            </li>
+            </offsets>
+        </li>
 		</comps>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<staticSunShadowHeight>0</staticSunShadowHeight>

@@ -76,7 +76,7 @@
 	</verbs>
 </ThingDef>
 
-<ThingDef ParentName="BuildingBase">
+<ThingDef ParentName="SNS_BaseTurretBuilding">
 	<defName>SNS_Turret_EXARCH</defName>
 	<label>Automated EXARCH</label>
 	<description>A turret powered by the ultimate weapon, the Automated EXARCH is a rapidly firing superweapon able to bring down entire colonies by itself.\n\nIt is smart to keep it away from the front lines and allow it to bombard the enemy from afar due to its tendency to absolutely obliterate whatever is caught in its explosion.\n\nAlso be aware that it is fully capable of obliterating itself if too many enemies get too close too many times, and even if it doesn't hit itself it will probably obliterate the general area where an enemy is at.\n\nThis turret still needs to be occasionally fueled by Eternium to continue running. One unit of Eternium gives the weapon five shots of fuel.</description>
@@ -84,7 +84,7 @@
 	<graphicData>
 		<texPath>Things/Building/Security/SNS/bases/SNSTurretBaseHighStorage</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
-		<drawSize>(1.5,1.5)</drawSize>	
+		<drawSize>(1.5,1.5)</drawSize>
 		
 		<damageData>
 			<rect>(1.5,1.5,1.5,1.5)</rect>
@@ -101,6 +101,7 @@
 	<altitudeLayer>Building</altitudeLayer>
 	<stealable>false</stealable>
 	<rotatable>false</rotatable>
+    <drawerType>MapMeshAndRealTime</drawerType>
 	
     <size>(2,2)</size>
 	<statBases>
@@ -207,7 +208,7 @@
 	</verbs>
 </ThingDef>
 
-<ThingDef ParentName="BuildingBase">
+<ThingDef ParentName="SNS_BaseTurretBuilding">
 	<defName>SNS_Turret_EternalEXARCH</defName>
 	<label>Eternal Automated EXARCH</label>
 	<description>A turret powered by the ultimate weapon, the Automated EXARCH is a rapidly firing superweapon able to bring down entire colonies by itself.\n\nIt is smart to keep it away from the front lines and allow it to bombard the enemy from afar due to its tendency to absolutely obliterate whatever is caught in its explosion.\n\nAlso be aware that it is fully capable of obliterating itself if too many enemies get too close too many times, and even if it doesn't hit itself it will probably obliterate the general area where an enemy is at.\n\nThis turret will never break down or need to be refueled. Ever.</description>

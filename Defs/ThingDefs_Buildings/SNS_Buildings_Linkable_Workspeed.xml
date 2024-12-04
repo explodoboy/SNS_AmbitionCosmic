@@ -330,7 +330,7 @@
         <researchPrerequisites><li>SNS_Research_VI_final</li></researchPrerequisites>
         <rotatable>true</rotatable>
         <altitudeLayer>Building</altitudeLayer>
-        <passability>Impassable</passability>
+		<passability>PassThroughOnly</passability>
         <castEdgeShadows>true</castEdgeShadows>
         <fillPercent>0.8</fillPercent>
         <designationCategory>Misc</designationCategory>

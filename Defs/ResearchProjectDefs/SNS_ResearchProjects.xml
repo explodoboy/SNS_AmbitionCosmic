@@ -69,7 +69,7 @@
     <ResearchProjectDef ParentName="SNS_Research_Base_GenI">
 	<defName>SNS_Research_I_linkable</defName>
 		<label>Advanced Starsteel Production</label>
-		<description>Our current methods of developing Starsteel is rather inefficient, as it is highly difficult to prepare for the next step of Starsteel production while currently working on one stage. If we can devise a way to prep for a later stage of Starsteel production, we could theoretically improve the speed of the Cosmic Forge drastically.</description>
+		<description>Our current methods of developing Starsteel are rather inefficient, as it is highly difficult to prepare for the next step of Starsteel production while currently working on one stage. If we can devise a way to prep for a later stage of Starsteel production, we could theoretically improve the speed of the Cosmic Forge drastically.</description>
 		<baseCost>20000</baseCost>
 		<techLevel>Ultra</techLevel>
 		<prerequisites>
@@ -95,7 +95,7 @@
 	<ResearchProjectDef ParentName="SNS_Research_Base_GenI">
 		<defName>SNS_Research_II_wep</defName>
 		<label>Cosmic Weaponisation</label>
-		<description>Starsteel can withstand extreme temperatures, and Cosmic Matter can create those extreme temperatures that Starsteel is made to withstand. To weaponize this...\n\nIt would surely be a most fruitful endeavour.</description>
+		<description>Starsteel can withstand extreme temperatures, and Cosmic Matter can create those extreme temperatures that Starsteel is made to withstand. To weaponize this...\n\nIt would surely be a most fruitful endeavor.</description>
 		<baseCost>15000</baseCost>
 		<techLevel>Ultra</techLevel>
 		<prerequisites>
@@ -193,7 +193,7 @@
 			<li>SNS_Research_I</li>
 		</prerequisites>
 		<researchViewX>22</researchViewX>
-		<researchViewY>4.8</researchViewY>
+		<researchViewY>4.95</researchViewY>
 	</ResearchProjectDef>
 	
 	<!-- Generation 1.5 -->
@@ -302,7 +302,7 @@
 	<ResearchProjectDef ParentName="SNS_Research_Base_GenII">
 		<defName>SNS_Research_III_hydroponics</defName>
 		<label>Cosmic Hydroponics Generation II</label>
-		<description>The Generation II Cosmic Hydroponics Basin does not rely on a custom-made nutrient bath for plants to grow in with trace amounts of Cosmic Alloy for prosperity, but instead it infuses the very cells of plants with Cosmic Matter, allowing for plants to grow at their very limit.</description>
+		<description>The Generation II Cosmic Hydroponics Basin does not rely on a custom-made nutrient bath for plants to grow in with trace amounts of Cosmic Alloy for prosperity, but instead, it infuses the very cells of plants with Cosmic Matter, allowing for plants to grow at their very limit.</description>
 		<baseCost>25000</baseCost>
 		<techLevel>Archotech</techLevel>
 		<prerequisites>
@@ -431,7 +431,7 @@
 	<ResearchProjectDef ParentName="SNS_Research_Base_GenIII">
 		<defName>SNS_Research_V_breakthrough</defName>
 		<label>Peering Beyond The Veil</label>
-		<description>There is still something out there, something eternal and invisible we have yet to grasp onto\n\nLet us near it as close as we may, and then leap forward.</description>
+		<description>There is still something out there, something eternal and invisible we have yet to grasp onto.\n\nLet us near it as close as we may, and then leap forward.</description>
 		<baseCost>125000</baseCost>
 		<techLevel>Archotech</techLevel>
 		<prerequisites>
@@ -459,7 +459,7 @@
     <ResearchProjectDef ParentName="SNS_Research_Base_GenIII">
 		<defName>SNS_Research_VI_linkable_I</defName>
 		<label>Advanced R.I.F.T. Creation</label>
-		<description>The R.I.F.T. Fabricator is unique in that it is able to process more than one access point at a time, allowing more Cosmic Matter and Eternium to be processed before diminishing returns arrive.</description>
+		<description>The R.I.F.T. Fabricator is unique in that it is able to process more than one access point of space at a time, allowing more Cosmic Matter and Eternium to be processed before experiencing diminishing returns.</description>
 		<baseCost>50000</baseCost>
 		<techLevel>Archotech</techLevel>
 		<prerequisites>
@@ -646,17 +646,17 @@
 	<ResearchProjectDef ParentName="SNS_Research_Base">
 		<defName>SNS_Research_infinite</defName>
 		<label>Beyond our Understanding</label>
-		<description>In the darkness of what lies beyond our vision lies the true great Unknown, the second ceiling of all technology; that one hard barrier that inhibits all progress. Some things will forever lie beyond our grasp, for Science Never Stops, even with our Ambition of the Cosmic.\n\n[[NOTE: This research can NOT be completed. Ever. Not even using an item that instantly finishes a research will NOT work on this, as this research will just reset itself back to zero.]]\n\nThe number of TechProf Subpersona Cores you've probably wasted on this research:</description>
+		<description>In the darkness of what lies beyond our vision lies the true great Unknown, the second ceiling of all technology; that one hard barrier that inhibits all progress. Some things will forever lie beyond our grasp, for Science Never Stops, even with our Ambition of the Cosmic.\n\n[[NOTE: This research is NOT intended to be completed. Usually, it is made so that it literally cannot be completed.]</description>
 		<baseCost>Infinity</baseCost>
 		<techLevel>Archotech</techLevel>
-		<researchMods>
-            <li Class="ResearchableStatUpgrades.ResearchMod_Repeatable"></li>
-        </researchMods>
 		<prerequisites>
 			<li>SNS_Research_VII</li>
 		</prerequisites>
 		<researchViewX>33</researchViewX>
 		<researchViewY>2.2</researchViewY>
+		<modExtensions>
+			<li Class="InfiniteResearch.ResearchExtension_Infinite" />
+		</modExtensions>
 	</ResearchProjectDef>
 
 </Defs>

@@ -185,7 +185,7 @@
 				<warmupTime>0.2</warmupTime>
 				<range>30</range>
 				<soundCast>ChargeLance_Fire</soundCast>
-				<soundCastTail>Guntail_Medium</soundCastTail>
+				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>13</muzzleFlashScale>
 			</li>
 		</verbs>
