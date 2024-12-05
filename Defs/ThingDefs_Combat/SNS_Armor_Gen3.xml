@@ -395,8 +395,8 @@
       <Insulation_Cold>500</Insulation_Cold>
       <Insulation_Heat>500</Insulation_Heat>
       <EquipDelay>24</EquipDelay>
-      <EnergyShieldRechargeRate>0.70</EnergyShieldRechargeRate>
-      <EnergyShieldEnergyMax>40</EnergyShieldEnergyMax>
+      <EnergyShieldRechargeRate>1</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>75</EnergyShieldEnergyMax>
     </statBases>
     <comps>
       <li Class="CompProperties_Shield">
@@ -404,7 +404,6 @@
       </li>
     </comps>
     <equippedStatOffsets>
-      <MoveSpeed>3</MoveSpeed>
       <MeleeHitChance>0.25</MeleeHitChance>
       <MeleeDodgeChance>0.25</MeleeDodgeChance>
       <MeleeCooldownFactor>0.5</MeleeCooldownFactor>
