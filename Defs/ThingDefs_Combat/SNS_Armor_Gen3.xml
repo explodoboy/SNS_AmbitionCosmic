@@ -103,7 +103,6 @@
       <SNS_Eternium>50</SNS_Eternium>
     </costList>
     <equippedStatOffsets>
-      <MoveSpeed>4</MoveSpeed>
       <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
       <AimingDelayFactor>-0.25</AimingDelayFactor>
       <RangedCooldownFactor>-0.25</RangedCooldownFactor>
@@ -257,7 +256,7 @@
       </li>
     </comps>
     <equippedStatOffsets>
-      <MoveSpeed>4</MoveSpeed>
+      <MoveSpeed>3</MoveSpeed>
       <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
       <AimingDelayFactor>-0.25</AimingDelayFactor>
       <RangedCooldownFactor>-0.25</RangedCooldownFactor>
