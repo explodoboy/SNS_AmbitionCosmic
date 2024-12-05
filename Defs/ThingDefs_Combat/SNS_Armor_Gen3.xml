@@ -406,7 +406,7 @@
     <equippedStatOffsets>
       <MeleeHitChance>0.25</MeleeHitChance>
       <MeleeDodgeChance>0.25</MeleeDodgeChance>
-      <MeleeCooldownFactor>0.5</MeleeCooldownFactor>
+      <MeleeCooldownFactor>-0.5</MeleeCooldownFactor>
       <MeleeDamageFactor>0.5</MeleeDamageFactor>
 	  <!-- <CarryingCapacity>250</CarryingCapacity> --> <!-- Doesn't work at the moment. I'll try something else maybe later. -->
     </equippedStatOffsets>
